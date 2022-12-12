@@ -167,9 +167,47 @@ main {
   margin: 0.5em;
   text-decoration: none;
   background-blend-mode: soft-light;
-  background-size: 150%;
+  background-size: 102%;
   transition: all 0.5s;
   font-size: 0.9rem;
+}
+.resume-section{
+  margin: 25px 0;
+  font-size: 3vw;
+  text-align: right;
+  padding-right: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 17px;
+  
+}
+.pictures{
+  border: 5px solid var(--secondary);
+  background-color: var(--primary);
+  color: var(--tertiary);
+  min-height: 549px;
+  max-height: 508px;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 20px 0;
+  margin: 0.5em;
+  text-decoration: none;
+  background-blend-mode: soft-light;
+  background-size: 100%;
+  transition: all 0.5s;
+  font-size: 0.9rem;
+  margin-top: -116px;
+  margin-right: 5px ;
+  margin-left: 382px;
+  min-width: 1241px;
+}
+
+.resume-container{
+  border-right: 4px solid var(--primary) ;
+  margin-right: 1291px;
+
 }
 
 /* feature first portfolio item */
@@ -233,12 +271,20 @@ main {
 }
 
 .pastel-puzzles {
-  background-image: url("../images/02-portfolio-3.jpg");
+  /* background-image: url("../images/02-portfolio-3.jpg"); */
+  background-color:rgba(28, 29, 33, 1)
 }
 
 .surf-report {
   background-image: url("../images/02-portfolio-4.jpg");
+  background-size: 141%;
+  background-position: -1px 1028px;
 }
+.resume1 {
+  background-image: url("../images/Web-Developer-Resume.jpg")
+}
+
+
 
 /* end portfolio project images */
 
@@ -295,3 +341,4 @@ main {
     align-items: flex-start;
   }
 }
+
